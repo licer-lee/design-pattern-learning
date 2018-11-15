@@ -1,5 +1,7 @@
 package com.licerlee.dp.struct.adapter;
 
+// 媒体适配器,适配MediaPlayer和AdvancedMediaPlayer
+// （适配器不是在详细设计时添加的，而是解决正在服役的项目的问题。这点很重要）
 public class MediaAdapter implements MediaPlayer {
 
 	AdvancedMediaPlayer advancedMusicPlayer;

@@ -1,9 +1,11 @@
 package com.licerlee.dp.struct.adapter;
 
+// 音频播放器
 public class AudioPlayer implements MediaPlayer {
 
 	MediaAdapter mediaAdapter;
 
+	@Override
 	public void play(String audioType, String fileName) {
 		// 播放 mp3 音乐文件的内置支持
 		if (audioType.equalsIgnoreCase("mp3")) {
